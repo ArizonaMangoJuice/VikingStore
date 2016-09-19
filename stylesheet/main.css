@@ -1,0 +1,196 @@
+/* Background image settings */
+body{
+  background-image: url(https://s3.amazonaws.com/viking_education/demos/viking_store_app/viking_ship_background_medium.jpg);
+}
+/* top bar */
+.container{
+  font-family: arial, sans-serif;
+  height: 80px;
+  font-size: 48px;
+  background-color: #f2f2f2;
+  top: 0;
+}
+.container a{
+  display: inline-block;;
+  text-decoration: none;
+  color: black;
+}
+#name{
+  padding-top: 1%;
+  padding-left: 3%;
+}
+#name:hover{
+  text-decoration: underline;
+
+}
+#cart-icon{
+  font-size: 28px;
+  float: right;
+  padding-right: 3%;
+  padding-top: 2%;
+}
+#cart-icon img{
+  height: 20px;
+  width: 20px;
+
+}
+#cart-icon:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+/* image from background */
+
+
+
+
+/*
+.container-6{
+  height: 200px;
+  width: 100%;
+  display: block;
+  background-color: #f2f2f2;
+
+}
+.container-6 img{
+  opacity: .8;
+  height: 30%;
+  width:  10%;
+
+}
+*/
+
+
+
+/*Large intro text */
+
+
+
+
+
+
+.container-2{
+  font-family: arial, sans-serif;
+  font-size: 48px;
+  color: white;
+  opacity: .98;
+  text-align: center;
+  height: 160px;
+  background-color: #666;
+}
+.container-2 h1{
+  padding-top: 4%;
+}
+.container-3{
+  font-family: arial, sans-serif;
+  font-size: 36px;
+  height: 80px;
+  opacity: .98;
+  text-align: center;
+  color: #666;
+  background-color: white;
+}
+.container-3 h3{
+  padding-top: 1.5%;
+}
+
+
+
+
+/* Product settings */
+
+
+
+
+
+
+.container-4{
+  display: flex;
+  flex-wrap: wrap;
+  height: 1000px;
+  width: auto;
+  text-align: center;
+  color: #fff;
+}
+.flex-item{
+  height: 400px;
+  width: 333px;
+  margin: 50px;
+  background-color: #000;
+}
+.header{
+  font-family: arial, sans-serif;
+  font-size: 24px;
+  top: 0%;
+  vertical-align: middle;
+  height: 12%;
+  background-color: #000;
+  color: #fff;
+  padding-top: 2%;
+}
+.price-tag{
+  display: inline-block;
+  border: 1px solid #fff;
+  background-color: #ff9900;
+  color: #000;
+  padding: 2%;
+  margin-right: 4.9%;
+  float: right;
+}
+.container-4 img{
+  width: 300px;
+  height: 300px;
+}
+.bottom{
+  background-color: #000;
+  font-family: arial,sans-serif;
+  bottom: 0;
+  height: 12%;
+}
+.bottom a{
+  padding: 3% 6%;
+  border: 1px solid #f2f2f2;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background-color: #ff9900;
+}
+.container-5{
+  background-color: #000;
+  text-align: center;
+}
+.container-5 a{
+  text-decoration: underline;
+  color: #ff9900;
+  padding: 2% 1%;
+}
+/* Footer settings */
+.footer{
+  font-family: arial,sans-serif;
+  text-align: center;
+  height: 120px;
+  bottom: 0;
+  background-color: #000;
+}
+.footer h2{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 24px;
+  color: #ffcc00;
+}
+.footer img{
+  padding-right: 1%;
+  height: 20px;
+  width: 25px;
+}
+.footer a{
+  padding-top: 1%;
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover{
+  text-decoration: underline;
+}
